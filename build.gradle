@@ -39,6 +39,7 @@ buildscript {
     classpath 'edu.sc.seis.launch4j:launch4j:3.0.6'
   }
 }
+build.dependsOn createExe
 
 launch4j {
   mainClassName = 'SwingDemo'
